@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Sederhana</title>
+    <title>Profil Rizky</title>
 
-    <!-- Menghubungkan CSS -->
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+            width:80%;
+            margin:auto;
+            background:white;
+            padding:20px;
+            margin-top:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            text-align:center;
+            color:#333;
+        }
+
+        .profile-img{
+            display:block;
+            margin:auto;
+            width:150px;
+            border-radius:50%;
+        }
+
+        .info{
+            margin-top:20px;
+        }
+
+        .info p{
+            font-size:18px;
+            line-height:1.6;
+        }
+
+        .skills{
+            margin-top:20px;
+        }
+
+        .skills ul{
+            list-style:none;
+            padding:0;
+        }
+
+        .skills li{
+            background:#007BFF;
+            color:white;
+            padding:8px;
+            margin:5px 0;
+            border-radius:5px;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:20px;
+            color:#777;
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <header>
-        <h1>Website Rizky</h1>
-        <p>Belajar HTML dan CSS</p>
-    </header>
+<div class="container">
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Tentang</a>
-        <a href="#">Kontak</a>
-    </nav>
+    <h1>Profil Saya</h1>
 
-    <main>
-        <h2>Selamat Datang</h2>
-        <p>Ini adalah contoh website sederhana menggunakan HTML dan CSS terpisah.</p>
+    <img src="https://via.placeholder.com/150" class="profile-img">
 
-        <button>Klik Saya</button>
-    </main>
+    <div class="info">
+        <p><b>Nama:</b> Rizky</p>
+        <p><b>Status:</b> Mahasiswa</p>
+        <p><b>Pendidikan:</b> S1</p>
+        <p><b>Cita-cita:</b> Web Developer</p>
+        <p><b>Minat:</b> Web Development, Linux, DevOps</p>
+    </div>
 
-    <footer>
-        <p>Copyright 2026</p>
-    </footer>
+    <div class="skills">
+        <h2>Skill</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Laravel</li>
+            <li>Linux</li>
+            <li>Git</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Rizky</p>
+</footer>
 
 </body>
 </html>
