@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Sederhana</title>
+
+    <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Website Rizky</h1>
+        <p>Belajar HTML dan CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <main>
+        <h2>Selamat Datang</h2>
+        <p>Ini adalah contoh website sederhana menggunakan HTML dan CSS terpisah.</p>
+
+        <button>Klik Saya</button>
+    </main>
+
+    <footer>
+        <p>Copyright 2026</p>
+    </footer>
+
+</body>
+</html>
